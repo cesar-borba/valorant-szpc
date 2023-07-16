@@ -68,7 +68,7 @@ body::before{ /*DOIS PONTOS -> PSEUDO ELEMENTO*/
 } /*CONFIGURAÇÃO PARA EVITAR IMAGENS DESFOCADAS E QUEBRADAS*/
 
 .lista-de-personagens .personagem.selecionado{
-    box-shadow: 0px 0px 24px 5px #ece8e1;
+    box-shadow: 0px 0px 24px 5px #747270;
 } /*CONFIG PARA O PERSONAGEM SELECIONADO*/
 
 .personagem-selecionado{
