@@ -1,0 +1,9 @@
+*{
+    margin: 0; /*margin = ESPAÇAMENTO EXTERNO DOS ELEMENTOS*/
+    padding: 0; /*padding = ESPAÇAMENTO INTERNO DOS ELEMENTOS*/
+    box-sizing: border-box;
+}
+
+.lista-de-personagens{
+    list-style: none;
+}

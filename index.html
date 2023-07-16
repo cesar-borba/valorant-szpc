@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant - Characters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed&display=swap" rel="stylesheet">
+    <!--(ALT+SHIFT+F) PARA INDENTAR-->
+
+    <link rel="stylesheet" href="./src/css/reset.css"> <!--LINK CSS-->
+    <link rel="stylesheet" href="./src/css/estilos.css"> <!--LINK CSS-->
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body> <!--PESQUISE POR SEMÂNTICA-->
+    <header class="cabecalho">
+        <img class ="logo" src="./src/imagens/valorant-logo.svg" alt="Logo valorant">
+    </header> <!--CABEÇALHO-->
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <!--ID É UM IDENTIFICADOR, SÓ PODE HAVER UM ID POR CÓDIGO, É MUITO UTILIZADO PARA INTERAÇÕES COM O JavaScript-->
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="jett" data-name="Jett" data-description="Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os inimigos antes mesmo que eles percebam quem ou o que os atingiu.">
+                    <img src="./src/imagens/card-jett-icon.jpg" alt="Personagem Jett">
+                </li>
+                <li class="personagem" id="phoenix" data-name="Phoenix" data-description="Chegando com tudo diretamente do Reino Unido, o poder estelar de Phoenix reluz em seu estilo de luta, incendiando o campo de batalha com luz e estilo. Tendo ajuda ou não, ele entra na luta como e quando achar que deve.">
+                    <img src="./src/imagens/card-phoenix-icon.jpg" alt="Personagem Phoenix">
+                </li>
+                <li class="personagem" id="omen" data-name="Omen" data-description="Omen, uma lembrança fantasmagórica, caça nas sombras. Ele cega os inimigos, teleporta-se pelo campo e deixa a paranoia assumir o controle enquanto o adversário tenta descobrir de onde virá seu próximo ataque.">
+                    <img src="./src/imagens/card-omen-icon.jpg" alt="Personagem Omen">
+                </li>
+                <li class="personagem" id="viper" data-name="Viper" data-description="Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem a presa, seus jogos mentais certamente o farão.">
+                    <img src="./src/imagens/card-viper-icon.jpg" alt="Personagem Viper">
+                </li>
+                <li class="personagem" id="reyna" data-name="Reyna" data-description="Criada no coração do México, Reyna domina o combate individual, destacando-se a cada abate efetuado. Sua capacidade só é limitada por sua própria perícia, tornando-a bastante dependente de desempenho.">
+                    <img src="./src/imagens/card-reyna-icon.jpg" alt="Personagem Reyna">
+                </li>
+                <li class="personagem" id="neon" data-name="Neon" data-description="Neon, nossa Agente filipina, avança em velocidades incríveis, descarregando surtos de radiância bioelétrica tão rapidamente quanto seu corpo consegue gerá-los. Ela corre à frente para pegar os inimigos de surpresa, abatendo-os mais rápido do que um raio.">
+                    <img src="./src/imagens/card-neon-icon.jpg" alt="Personagem Neon">
+                </li>
+                <li class="personagem" id="sova" data-name="Sova" data-description="Nascido sob o eterno inverno das tundras russas, Sova rastreia, encontra e elimina inimigos com eficiência e precisão implacáveis. Seu arco personalizado e suas habilidades inigualáveis de reconhecimento garantem que nenhuma presa escape.">
+                    <img src="./src/imagens/card-sova-icon.jpg" alt="Personagem Sova">
+                </li>
+                <li class="personagem" id="sage" data-name="Sage" data-description="Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha.">
+                    <img src="./src/imagens/card-sage-icon.jpg" alt="Personagem Sage">
+                </li>
+                <li class="personagem" id="brimstone" data-name="Brimstone" data-description="Vindo diretamente dos EUA, o arsenal orbital do Brimstone garante que o esquadrão dele sempre esteja em vantagem. Sua capacidade de oferecer utilitários com precisão e segurança faz dele um comandante inigualável na linha de frente.">
+                    <img src="./src/imagens/card-brimstone-icon.jpg" alt="Personagem Brimstone">
+                </li>
+                <li class="personagem" id="kayo" data-name="Kay/O" data-description="KAY/O é uma máquina de guerra construída com um único propósito: neutralizar Radiantes. Ele é capaz de Suprimir habilidades inimigas, anulando a capacidade de contra-ataque dos adversários e dando a si e a seus aliados uma vantagem essencial em combate.">
+                    <img src="./src/imagens/card-kayo-icon.jpg" alt="Personagem Kay/O">
+                </li>
+                <li class="personagem" id="cypher" data-name="Cypher" data-description="Cypher, um vendedor de informações do Marrocos, é uma verdadeira rede de vigilância de um homem só que fica de olho em cada movimento dos inimigos. Nenhum segredo está a salvo. Nenhuma manobra passa despercebida. Cypher está sempre vigiando.">
+                    <img src="./src/imagens/card-cypher-icon.jpg" alt="Personagem Cypher">
+                </li>
+                <li class="personagem" id="killjoy" data-name="Killjoy" data-description="Killjoy, uma alemã genial, defende posições-chave no campo de batalha facilmente com seu arsenal de invenções. Se o dano causado por seu equipamento não der cabo dos inimigos, os efeitos negativos de seus queridos robôs darão conta do recado.">
+                    <img src="./src/imagens/card-killjoy-icon.jpg" alt="Personagem Killjoy">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-jett-art.png" alt="Personagem Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Jett</h2>
+                <p class="descricao-personagem" id="descricao-personagem">
+                    Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que
+                    permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os
+                    inimigos antes mesmo que eles percebam quem ou o que os atingiu.
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
